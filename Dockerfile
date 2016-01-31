@@ -11,11 +11,7 @@ RUN easy_install web.py
 RUN easy_install mako
 RUN easy_install pymongo
 RUN easy_install feedparser
-#RUN easy_install tweepy
-#RUN  git clone git://github.com/joshthecoder/tweepy.git
-#RUN  cd tweepy && python setup.py install
 
-# Descargamos y lanzamos la aplicación
+# Descargamos la aplicación
 RUN git clone https://github.com/JCristobal/ProjectCC.git /home/PeriodicoInteractivo
-RUN cd /home/PeriodicoInteractivo 
-RUN echo "Ejecuta python script.py para desplegar la aplicación"
+
