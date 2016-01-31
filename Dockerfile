@@ -17,5 +17,5 @@ RUN easy_install tweepy
 
 # Descargamos y lanzamos la aplicación
 RUN git clone https://github.com/JCristobal/ProjectCC.git /home/PeriodicoInteractivo
-RUN cd /home/PeriodicoInteractivo #&& python script.py
+RUN cd /home/PeriodicoInteractivo 
 RUN echo "Ejecuta python script.py para desplegar la aplicación"
