@@ -11,6 +11,7 @@ RUN easy_install web.py
 RUN easy_install mako
 RUN easy_install pymongo
 RUN easy_install feedparser
+RUN easy_install tweepy
 
 # Descargamos y lanzamos la aplicación
 RUN git clone https://github.com/JCristobal/ProjectCC.git /home/PeriodicoInteractivo
